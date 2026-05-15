@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <title>Engineering College Admission Form</title>
+</head>
+
+<body>
+
+    <center>
+
+        <h1>Engineering College Admission Form</h1>
+
+        <form>
+
+            <fieldset>
+                <legend>Student Personal Details</legend>
+
+                <label>Student Name:</label><br>
+                <input type="text" name="name" placeholder="Enter Your Name">
+                <br><br>
+
+                <label>Email Address:</label><br>
+                <input type="email" name="email" placeholder="Enter Email">
+                <br><br>
+
+                <label>Mobile Number:</label><br>
+                <input type="tel" name="mobile" placeholder="Enter Mobile Number">
+                <br><br>
+
+                <label>Date of Birth:</label><br>
+                <input type="date" name="dob">
+                <br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <br><br>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Academic Details</legend>
+
+                <label>12th Percentage:</label><br>
+                <input type="text" name="percentage">
+                <br><br>
+
+                <label>Cut Off Mark:</label><br>
+                <input type="text" name="cutoff">
+                <br><br>
+
+                <label>Counselling Number:</label><br>
+                <input type="text" name="counselling">
+                <br><br>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Engineering Course Selection</legend>
+
+                <label>Select Department:</label><br>
+
+                <select name="department">
+
+                    <optgroup label="Computer Science Departments">
+                        <option>CSE - Computer Science Engineering</option>
+                        <option>AI & DS - Artificial Intelligence and Data Science</option>
+                        <option>IT - Information Technology</option>
+                    </optgroup>
+
+                    <optgroup label="Core Engineering Departments">
+                        <option>ECE - Electronics and Communication Engineering</option>
+                        <option>EEE - Electrical and Electronics Engineering</option>
+                        <option>Mechanical Engineering</option>
+                        <option>Civil Engineering</option>
+                    </optgroup>
+
+                </select>
+
+                <br><br>
+
+                <label>Select college</label><br>
+
+                <select name="college">
+
+                    <optgroup label="Chennai Colleges">
+                        <option>Anna University</option>
+                        <option>Saveetha College of Engineering</option>
+                       
+                    </optgroup>
+
+                    <optgroup label="thiruvannamali Colleges">
+                        <option>Arunai College of Engineering</option>
+                        <option>Skp College of Engineering</option>
+                    </optgroup>
+
+                </select>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Admission Confirmation</legend>
+
+                <label>Hostel Required:</label><br>
+                <input type="radio" name="hostel"> Yes
+                <input type="radio" name="hostel"> No
+                <br><br>
+
+                <label>Upload Counselling Allotment Order:</label><br>
+                <input type="file" name="allotment">
+                <br><br>
+
+                <input type="submit" value="Apply Admission">
+                <input type="reset" value="Reset Form">
+
+            </fieldset>
+
+        </form>
+
+    </center>
+
+</body>
+
+</html>

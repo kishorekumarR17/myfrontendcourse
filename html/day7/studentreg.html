@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <section>
+        <div>
+            <center>
+
+                <h1>Student Registration Form</h1>
+
+                <form method="post">
+
+                    <!-- Text Input -->
+                    <label>Enter the Name</label><br>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <br><br>
+
+                    <!-- Email Input -->
+                    <label>Enter the Email Address</label><br>
+                    <input type="email" name="email" placeholder="Your Email Address" required>
+                    <br><br>
+
+                    <!-- Password Input -->
+                    <label>Create Password</label><br>
+                    <input type="password" name="password" placeholder="Enter Password" required>
+                    <br><br>
+
+                    <!-- Tel Input -->
+                    <label>Enter Mobile Number</label><br>
+                    <input type="tel" name="mobile" minlength="10" maxlength="10"
+                        placeholder="10 Digit Number" required>
+                    <br><br>
+
+                    <!-- Radio Button -->
+                    <label>Gender:</label><br>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                    <input type="radio" name="gender" value="Other"> Other
+                    <br><br>
+
+                    <!-- Date Input -->
+                    <label>Date of Birth:</label><br>
+                    <input type="date" name="dob">
+                    <br><br>
+
+                    <!-- Textarea -->
+                    <label>Address:</label><br>
+                    <textarea name="address" rows="4" cols="30"
+                        placeholder="Enter Address"></textarea>
+                    <br><br>
+
+                    <!-- Degree -->
+                    <label>Name of Degree Completed:</label><br>
+                    <input type="text" name="degree">
+                    <br><br>
+
+                    <!-- CGPA -->
+                    <label>CGPA:</label><br>
+                    <input type="text" name="cgpa">
+                    <br><br>
+
+                    <!-- Checkbox -->
+                    <label>Skills Known:</label><br>
+                    <input type="checkbox" name="skills" value="HTML"> HTML
+                    <input type="checkbox" name="skills" value="CSS"> CSS
+                    <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+                    <input type="checkbox" name="skills" value="Python"> Python
+                    <br><br>
+
+                    <!-- Select Box -->
+                    <label>Course You Are Interested In:</label><br>
+                    <select name="course">
+                        <option>Select Course</option>
+                        <option>Python Full Stack</option>
+                        <option>Java Full Stack</option>
+                        <option>MERN Full Stack</option>
+                    </select>
+                    <br><br>
+
+                    <!-- Radio Button -->
+                    <label>Mode:</label><br>
+                    <input type="radio" name="mode" value="Online"> Online
+                    <input type="radio" name="mode" value="Offline"> Offline
+                    <br><br>
+
+                    <!-- Select Box -->
+                    <label>Convenient Location:</label><br>
+                    <select name="location">
+                        <option>Chennai</option>
+                        <option>Bangalore</option>
+                        <option>Hyderabad</option>
+                    </select>
+                    <br><br>
+
+                    <!-- Radio Button -->
+                    <label>Payment Type:</label><br>
+                    <input type="radio" name="payment" value="Cash"> Cash
+                    <input type="radio" name="payment" value="Online"> Online Payment
+                    <br><br>
+
+                    <!-- File Input -->
+                    <label>Upload Payment Screenshot:</label><br>
+                    <input type="file" name="payment_screenshot">
+                    <br><br>
+
+                    <!-- Submit Button -->
+                    <input type="submit" value="Submit">
+
+                    <!-- Reset Button -->
+                    <input type="reset" value="Reset">
+
+                </form>
+
+            </center>
+        </div>
+    </section>
+
+</body>
+
+</html>
