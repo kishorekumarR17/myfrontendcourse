@@ -1,0 +1,159 @@
+syntax for inline
+
+
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+<h1 style="prop1:value;prop2:value;"></h1>
+
+
+
+
+syntax for internal and external
+
+
+
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
+h1{
+prop1:value;
+prop2:value;
+prop3:value;
+}
+
