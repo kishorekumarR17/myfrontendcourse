@@ -1,0 +1,32 @@
+*{
+    background-color: black;
+
+}
+.Introduction{
+    background-color: blueviolet;
+    color: darkolivegreen;
+}
+#web{
+    background-color: darkgoldenrod;
+    color: hotpink;
+}
+.Frontend{
+    background-color:grey ;
+    color:gold ;
+}
+#devolopment{
+    background-color:blue ;
+    color:green ;
+}
+#backend{
+    background-color:brown ;
+    color:violet ;
+}
+#important{
+    background-color: black;
+    color: maroon;
+}
+#Conclusion{
+    background-color: hotpink;
+    color: black;
+}

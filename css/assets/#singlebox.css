@@ -1,0 +1,21 @@
+*{
+    background-color: black;
+    color: beige;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#spotify{
+    background-color: black;
+    color: beige;
+}
+#songs{
+    background-color: blueviolet;
+    color: black;
+    padding: 10px;
+    border: darkblue;
+    margin: 10px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,44 @@
+*{
+    background-color:rgb(216, 18, 18);
+
+}
+.Introduction{
+    background-color: blueviolet;
+    color: darkolivegreen;
+}
+#web{
+    background-color: darkgoldenrod;
+    color: hotpink;
+}
+#Frontend{
+    background-color:grey ;
+    color:gold ;
+}
+.development{
+    background-color:blue ;
+    color:green ;
+}
+#backend{
+    background-color:brown ;
+    color:violet ;
+}
+.manages{
+    background-color: brown;
+    color: mediumvioletred;
+}
+#importance{
+    background-color: black;
+    color: maroon;
+}
+.is{
+    background-color: navy;
+    color: black;
+}
+#Conclusion{
+    background-color: hotpink;
+    color: black;
+}
+.major{
+    background-color: black;
+    color: cornflowerblue;
+}
