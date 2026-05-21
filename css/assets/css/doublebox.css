@@ -1,0 +1,21 @@
+.parent-box{
+    background-color:green;
+    color: black;
+    padding: 30px;
+    border: 0cap;
+    text-align: center;
+    width: 300px;;
+    height: 300px;
+    margin:auto;
+}
+
+.child{
+    background-color:violet;
+    color: black;
+    padding: 30px;;
+    border: 0cap;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin:auto;
+}

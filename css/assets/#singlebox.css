@@ -3,14 +3,8 @@
     color: beige;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
-
-#spotify{
-    background-color: black;
-    color: beige;
-}
-#songs{
+.box{
     background-color: blueviolet;
     color: black;
     padding: 10px;
