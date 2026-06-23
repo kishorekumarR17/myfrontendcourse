@@ -1,0 +1,112 @@
+<script>
+
+  {let name = "Naveen"
+    console.log(name)
+    name ="kumar"
+    console.log(name) 
+}
+
+
+
+{
+  
+    if(true){
+        let name ="naveen"
+    }
+
+    console.log(name)
+}
+    
+
+{
+    const courseName = "Computerscience"
+    cousreName = "AI"
+    console.log(courseName)
+}
+
+{
+   const greet  = () =>{
+        console.log("Welcome To javascript")
+    }
+    greet()
+}
+
+{  
+
+  const showHero = (hero) => {
+    
+       
+        console.log("Hero Name :" + hero)
+    }
+  
+  showHero("vijay")
+  
+}
+
+{
+const add = (a,b) =>{
+
+    let c = a+b
+    console.log(c)
+}
+
+add(10,20)
+
+}
+
+{
+    let hero = "Vijay"
+    console.log(`My Favourite Hero is`, hero)
+}
+
+{
+    const studentProfile = {name : "Naveen kumar",course :"computerscience",city:"chennai"}
+    console.log(`My name is ${ studentProfile.name}.I am learning ${studentProfile.course} and I live in ${studentProfile.city}.`)
+}
+
+{
+    let hero =["Vijay","Ajith","Suriya"]
+     let [hero1,hero2] = hero
+     console.log(hero1)
+     console.log(hero2)
+}
+{ 
+    let courseName =["HTML","CSS","Javascript"]
+    let allCourse= [...courseName,"React"]
+    console.log(allCourse)
+}
+{
+    let hero1 = ["Vijay","Ajith"]
+    let hero2 = ["Suriya","SK"]
+    let hero = [...hero1,...hero2]
+    console.log(hero)
+}
+{
+    let details = { name : "sudhan",city :"chennai"}
+    let detail = {...details}
+    console.log(detail)
+    let profile = {...detail,cousre : "MERN"}
+    console.log(profile)
+}
+{
+    function  total  (...value)  {
+        console.log(value)
+
+
+    }
+    total(10,20,30,40)
+}
+{
+  function sum(...numbers){
+    let total = 0; 
+    for(let number of numbers){
+        total = total + number
+    }
+
+    console.log(total)
+
+  }
+  sum(10,20,30,40,50)
+
+}
+</script>
