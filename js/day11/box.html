@@ -1,0 +1,216 @@
+<script>
+//task1
+
+{
+    const heros = ["Vijay","Ajith","Suriya"]
+     
+    const star = heros.map(function(name) {
+
+    return name.toUpperCase()
+        
+    })
+
+    console.log(star)
+}
+//task2
+{
+ const collections = [100,200,300,400]
+ const total = collections.map(function(multi){
+    return multi*10
+    
+ } 
+ 
+)
+ console.log(total)
+
+
+}
+
+//task3
+
+const movies = ["GOAT","Leo","Master"]
+const add = movies.map(function(name){
+    return "Movies : "+ name
+})
+console.log(add)
+
+
+//task4
+
+{
+    const collections = [100,500,800,200,900]
+    const fil = collections.filter((a)=>{
+        return a>500
+    })
+    console.log(fil)
+}
+
+
+{
+    const marks = [35,80,20,90,45]
+    const pass = marks.filter((s)=>{
+        return s>=35
+
+    })
+    console.log(pass)
+}
+
+//task6
+{
+    const heroes =["vijay","Ajith","Sk","Suriya"]
+    const letter = heroes.filter((star)=>{
+        return star.length>4
+
+    })
+    console.log(letter)
+}
+
+//task7
+{
+    const heroes= ["Vijay","Ajith","Suriya"]
+    const data = heroes.find((e)=>{
+
+        return e ==="Ajith"
+        
+      
+    })
+    console.log(data)
+}
+
+//task8
+{
+    const collections =[100,500,800,200]
+    const first = collections.find((e)=> {
+     return e>400
+        
+
+    })
+    console.log(first)
+}
+
+//task9
+{
+    const heroes = ["vijay","Ajith","Suriya"]
+    console.log(heroes.indexOf("Suriya"))
+}
+
+//task10
+{
+    const movies =["GOAT","Leo","Master"]
+    console.log(movies.indexOf("Leo"))
+}
+
+//tak11
+{
+    const marks = [35,80,20,90]
+    const result = marks.some((a)=>{
+        return a<35
+    })
+    console.log(result)
+}
+
+//task12
+{
+    const collections =[100,200,900]
+    const check = collections.some((d)=>{
+        return d>800
+
+    })
+    console.log(check)
+}
+
+//task13
+
+{
+    const marks =[50,70,90,40]
+    const check = marks.every((m)=>{
+       return m>=35
+
+    })
+    console.log(check)
+}
+
+//task14
+{
+const ages = [20,25,30,35]
+const check = ages.every((w)=>{
+    return w>18
+
+})
+console.log(check)
+}
+//task15
+{
+const collections =[100,200,300,400]
+const value = collections.reduce((k,d)=>{
+    return k+d
+
+})
+console.log(value)
+}
+
+//task18
+
+{
+    const students =[{id:1,name:"Sudhan"},{id:2,name:"Rahul"}]
+const name = students.map((w)=>{
+    return w.name
+})
+console.log(name)
+}
+
+//task19
+{
+    const students = [{id:1,age:20},{id:2,age:30},{id:3,age:18}]
+    const eligible = students.filter((s)=>{
+        return s.age>20
+
+    })
+    console.log(eligible)
+}
+
+//task 20
+{
+    const students =[{id:1,name:"Sudhan"},{id:2,name:"Rahul"}]
+    const search = students.find((p)=> {
+        return  p.id==2
+
+
+    })
+    console.log(search)
+
+}
+//task21
+{
+    const number = [100,500,800,200]
+    const highest = number.reduce((a,c)=>{
+
+        return a > c ? a:c
+
+
+    })
+    console.log(highest)
+}
+
+//task22
+{ const number = [100,500,800,200]
+    const low = number.reduce((a,c)=>{
+
+        return a < c ? a:c
+
+
+    })
+    console.log(low)
+
+}
+//task23
+{
+const number =[10,15,20,25,30]
+const evenNumber =number.filter((d)=>{
+    return d % 2 ===0
+})
+console.log(evenNumber)
+}
+</script>
+
+
