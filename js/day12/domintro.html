@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+     
+</head>
+<body>
+    <h1 id="title">
+        Welcome
+    </h1>
+    <p class="course">React</p>
+    <input id = "username"type="text"/>
+    <br>
+    <img  id="hero" src="https://s.yimg.com/fz/api/res/1.2/rY9dIEVSOsKRui74vj5euw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD00MTI7cHhvZmY9NTA7cHlvZmY9MTAwO3E9ODA7c3M9MTt3PTM4OA--/https://i.pinimg.com/736x/58/d4/9e/58d49e7135bf7c7e0ff9ae04a0a1fba9.jpg" alt="APPLE">
+     <a  id="website" href="https://search.yahoo.com/search?p=image%20of%20apple">vist here </a>
+
+
+
+
+
+    <script>
+     const input = document.getElementById("title")
+     input.innerText="welcome to javascript DOM"
+     const role = document.querySelector(".course")
+     role.innerText="MERN Stack"
+     const name =document.getElementById("username")
+     name.value="Sudhan"
+     const star =document.querySelector("#username")
+     star.scr="https://s.yimg.com/fz/api/res/1.2/kSNiqI21jl5MffgbpinwTw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD00MTI7cHhvZmY9NTA7cHlvZmY9MTAwO3E9ODA7c3M9MTt3PTM4OA--/https://i.pinimg.com/736x/d8/19/48/d81948d6128b55478b9274dda9d7cabe.jpg"
+     const newPage= document.getElementById("website")
+     newPage.href="https://www.google.com/search?q=image+of+orange&oq=image+of+&gs_lcrp=EgZjaHJvbWUqDAgGEAAYQxiABBiKBTIOCAAQRRgnGDsYgAQYigUyBggBEEUYOTIMCAIQABhDGIAEGIoFMgwIAxAAGEMYgAQYigUyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMgwIBhAAGEMYgAQYigUyDAgHEAAYQxiABBiKBTIMCAgQABhDGIAEGIoFMgwICRAAGEMYgAQYigXSAQoxNDE1NmowajE1qAIMsAIB8QVnlb7YVZq4jfEFZ5W-2FWauI0&sourceid=chrome&ie=UTF-8"
+    </script>
+    
+</body>
+</html>
