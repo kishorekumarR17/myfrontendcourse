@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input id="data" type="text" placeholder="enter data">
+        <button onclick="info()">click</button>
+        <p id="first"></p>
+    </div>
+
+    <div>
+        <h1  id="begin">JAVASCRIPT</h1>
+        <button onclick="press()">click</button>
+
+
+    </div>
+    
+
+    <div>
+
+        <h1>Form</h1>
+        <input id="one" type="text"  placeholder="enter the name"><br> <br>
+        <input id="two"   type="email"  placeholder="enter the email"><br><br>
+        <input  id="three"  type="number"  placeholder="age"><br><br>
+        <button  onclick="enter()">register</button>
+        <p id="card"></p>
+         <p id="cards"></p>
+         <p id="cardss"></p>
+
+
+    </div>
+
+
+
+    <script>
+
+        const info =()=>{
+
+            let inside = document.getElementById("data").value
+            document.querySelector("#first").innerText= inside
+
+
+
+        }
+
+  
+    
+        const press = ()=>{
+
+            document.querySelector("#begin").style.color="pink"
+           
+        }
+
+           
+   
+
+
+        const enter = ()=>{
+         let final = document.querySelector("#one").value
+         let semi = document.querySelector("#two").value
+          let quater =document.querySelector("#three").value
+        
+
+          document.querySelector("#card").innerText=final
+          document.querySelector("#cards").innerText=semi
+          document.querySelector("#cardss").innerText=quater
+
+        }
+
+
+      q
+
+    </script>
+</body>
+</html>
