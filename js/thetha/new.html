@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input id="data" type="text" placeholder="enter data">
+        <button onclick="info()">click</button>
+        <p id="first"></p>
+    </div>
+    <br>
+
+
+     <div>
+        <h1  id="begin">JAVASCRIPT</h1>
+        <button onclick="press()">click</button>
+        </div>
+
+    <form>
+
+            <input type="text"  id="Name"  placeholder="Name">
+            <input type="text"  id="Email"  placeholder="Email">
+            <input type="text"  id="Age"  placeholder="Age">
+
+            <button onclick="register()">Register</button>
+
+            <div id="card"></div>
+
+
+        </form>
+
+
+
+    </div>
+</body>
+</html>
+
+<script>//task1
+const calculateGrade=(mark)=> {
+
+    if (mark >= 90) {
+        console.log("Grade A");
+    }
+      else if (mark >= 80) {
+        console.log("Grade B");
+    }
+    else if (mark >= 70) {
+        console.log("Grade C");
+    }
+    else if (mark >= 60) {
+        console.log("Grade D");
+    }
+    else {
+        console.log("Fail");
+    }
+
+}
+ calculateGrade(80)
+ 
+ 
+ //task2
+
+const even_or_odd =(value)=>{
+
+    if (value %2==0){
+        console.log("even");
+        
+    }else{
+        console.log("odd");
+        
+    }
+
+}
+even_or_odd(3)
+ 
+
+
+//task3
+
+const totalMarks=(marks)=> {
+
+    let total = 0;
+
+    for (let i = 0; i < marks.length; i++) {
+        total += marks[i];
+    }
+
+    console.log("Total Marks =", total);
+}
+
+totalMarks([80, 75, 90, 85, 70]);
+
+
+//task 4 
+
+const movie_collection = (collection) => {
+
+    let highest = collection[0];
+
+    for (let i = 0; i < collection.length; i++) {
+
+        if (collection[i] > highest) {
+
+            highest = collection[i];
+
+        }
+
+    }
+
+    console.log("Highest Collection =", highest);
+}
+
+movie_collection([100, 500, 600]);
+
+
+//task6
+
+        const info =()=>{
+
+            let inside = document.getElementById("data").value
+            document.querySelector("#first").innerText= inside
+
+
+
+        }
+
+
+        //task7
+        let users = [
+        {
+         name: "Pavi",
+        email: "pavi@gmail.com",
+         password: "12345"
+        },
+       {
+          name: "Sudhan",
+          email: "sudhan@gmail.com",
+          password: "abcd"
+           }
+     ];
+
+         let email = "pavi@gmail.com";
+          let password = "12345";
+
+          let login = false;
+
+           for (let i = 0; i < users.length; i++) {
+                     if (
+                         users[i].email === email &&
+                        users[i].password === password
+                     ) {
+              login = true;
+               console.log("Login Successful");
+               break;
+              }
+           }
+
+             if (!login) {
+              console.log("Invalid Login");
+             }
+ 
+  //task9 
+   const press = ()=>{
+
+            document.querySelector("#begin").style.color="pink"
+           
+        }
+
+           
+ //task10
+
+  function register(){
+
+          let Name=document.getElementById("Name").value;
+          let Email=document.getElementById("Email").value;
+          let Age=document.getElementById("Age").value;
+
+          document.getElementById("card").innerHTML=`
+                          <h3>Registration details</h3>
+                       Name:${name}
+                        Email:{Email}
+                        Age:{Age}`
+
+          
+                        
+         
+            
+        }
+ 
+ </script>
