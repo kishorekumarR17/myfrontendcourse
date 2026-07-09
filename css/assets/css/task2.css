@@ -1,0 +1,21 @@
+body{
+    background-color: lightgray;
+    text-align: center;
+}
+
+button{
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.Login{
+    background-color: blue;
+    color: white;
+}
+
+.Register{
+    background-color: orange;
+    color: white;
+}
